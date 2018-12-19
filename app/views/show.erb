@@ -13,7 +13,7 @@
       <p>Cook Time: <%= @recipe.cook_time %></p>
 
       <a href="/recipes/<%= @recipe.id %>/edit">Edit this recipe!</a>
-      
+
     <p>
       <form action="/recipes/<%= @recipe.id %>" method="post">
         <input type="hidden" name="_method" id="hidden" value="delete">
